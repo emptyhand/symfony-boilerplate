@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate ===========",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.2.1",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "ts-loader": "^2.0.3",
+    "uglifyjs-webpack-plugin": "^0.4.1",
+    "webpack": "^2.3.3"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --colors --port 8090 --content-base=web/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
