@@ -39,11 +39,10 @@
             </nav>
         {% endblock %}
 
-        {% block body %}{% endblock %}
+        {% block body %}
+        {% endblock %}
+
         {% block javascripts %}
-            {% if app.environment == "dev" %}
-                {#<script src="{{ asset('webpack-dev-server.js') }}"></script>#}
-            {% endif %}
         {% endblock %}
     </body>
 </html>
